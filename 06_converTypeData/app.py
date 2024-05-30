@@ -1,0 +1,10 @@
+edad = input("Dime tu edad: ")
+print(type(edad))
+edadConvertir = int(edad)
+print(type(edadConvertir))
+print("\nNueva Edad")
+nuevaEdad = 1 + edadConvertir
+print(nuevaEdad)
+print(type(nuevaEdad))
+edadTexto = str(nuevaEdad)
+print(type(edadTexto))
