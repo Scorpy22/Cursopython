@@ -6,6 +6,6 @@ mes. Tu programa le va a responder con una frase que incluya su nombre y el mont
 corresponde por las comisiones. 
 """
 nombre = input("Dime tu nombre: ")
-ventas = input("¿Cuánto has vendido? ")
+ventas = input("¿Cuánto has vendido en este mes? ")
 
-print("\nTu nombre es: " + nombre + f"\nTu comisión es: {round(0.13*float(ventas),2)}")
+print("\nTu nombre es: " + nombre + f"\nTu comisión es: $ {round(0.13*float(ventas),2)}")
