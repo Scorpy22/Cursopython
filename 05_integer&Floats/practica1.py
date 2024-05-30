@@ -5,4 +5,4 @@ un valor de tipo integer de tu elección.
 """
 
 num_entero = 22
-print(num_entero)
+#print(num_entero)
