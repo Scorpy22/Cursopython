@@ -25,7 +25,7 @@ Cada persona debe pagar: 19,93
 
 """
 
-factura_Tot = float(input("!Bienvenido a la calculadora de propinas¡\n \n¿Cuál fue la factura total?\n$ "))
-propina = int(input("¿Cuánta propina te gustaría dar? \nEscoja entre estas opciones: 10, 12 o 15 %\n"))
-personas = int(input("¿Cuántas personas para dividir la cuenta?\n"))
-print(f"\nCada persona debe pagar: $ {round(factura_Tot/personas + factura_Tot*propina/(personas*100),2)}\n  \nPor tanto, la parte de la factura total que corresponda a todos es $ {round(factura_Tot/personas,2)} más una propina de $ {round(factura_Tot*propina/(personas*100),2)}\n")
+factura_Tot = float(input("!Bienvenido a la calculadora de propinas¡\n \n\n¿Cuál fue su factura total?\n$ "))
+propina = int(input("\n¿Cuánta propina te gustaría dar? \nEscoja entre estas opciones: 10, 12 o 15 %\n"))
+personas = int(input("\n¿Entre cuantas personas se va a dividir la cuenta?\n"))
+print(f"\n\nRESULTADO\nCada persona debe pagar: $ {round(factura_Tot/personas + factura_Tot*propina/(personas*100),2)}\n  \nPor tanto, la parte de la factura total que corresponda a todos es $ {round(factura_Tot/personas,2)} más una propina de $ {round(factura_Tot*propina/(personas*100),2)}\n")
