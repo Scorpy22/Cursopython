@@ -10,3 +10,9 @@ Para ello:
 - Suma todos los valores al cuadrado obtenidos. Acumula la suma en 
 la variable suma_cuadrados.
 """
+suma_cuadrados = 0
+
+for numero in range(1,16):
+    suma_cuadrados += numero**2
+    
+print(f"La suma de los cuadrados de los números del 1 al 15 es: {suma_cuadrados}")
